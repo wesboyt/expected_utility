@@ -1,3 +1,4 @@
+import math
 def calculate_sharpe_and_variance(params: dict) -> (float, float):
     """Calculates S = ev / risk and Var(S) via Delta Method."""
     ev = params['ev']
